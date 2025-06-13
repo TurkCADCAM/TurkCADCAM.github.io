@@ -1,0 +1,65 @@
+<form action="http://www.turkcadcam.net/form/afp.asp?formid=21" onSubmit="return xlaAFPvalidate(this);" name="okur-gorusleri" method="post">
+                    <table width="95%" border="0" align="center" cellpadding="0" cellspacing="2" bgcolor="#999999">
+                      <tr>
+                        <td bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="3" align="center">
+                            <tr valign="middle">
+                              <td height="35" colspan="2" bgcolor="#999999"><div align="center"><font size="3"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif">Yeni veya hatal&#305; link bildirim formu</font></b></font></div></td>
+                            </tr>
+                            
+                            <tr>
+                              <td rowspan="2"><div align="right"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Bildirim türü*:<br>
+                              </font></b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(birini seçiniz) </font></div></td>
+                              <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input type="radio" name="Bildirim" value="YeniLink">
+                              Yeni link </font></b></td>
+                            </tr>
+                            <tr>
+                              <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input type="radio" name="Bildirim" value="HataliLink">
+                              Hatal&#305; link </font></b></td>
+                            </tr>
+                            <tr>
+                              <td width="26%" bgcolor="#EFEFEF"><div align="right"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Link web adresi*:</font></b></div></td>
+                              <td width="80%" bgcolor="#EFEFEF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input name="LinkAdresi" type="text" id="LinkAdresi" size="75">
+                              </font></td>
+                            </tr>
+                            <tr>
+                              <td><div align="right"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Aç&#305;klama</font></b></div></td>
+                              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <textarea name="LinkAciklama" cols="50" rows="3" id="LinkAciklama"></textarea>
+                              </font></td>
+                            </tr>
+                            <tr>
+                              <td width="26%" bgcolor="#EFEFEF"><div align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Ad&#305;n&#305;z, Soyad&#305;n&#305;z:</font></b></div></td>
+                              <td width="80%" bgcolor="#EFEFEF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input name="AdiSoyadi" type="text" id="AdiSoyadi" size="50">
+                              </font></b></td>
+                            </tr>
+                            <tr>
+                              <td width="26%"><div align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">E-Posta adresiniz*:</font></b></div></td>
+                              <td width="80%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input name="ePosta" type="text" id="ePosta" size="50">
+                              </font></td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#EFEFEF"><div align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Güvenlik Kodu*:</font></b></div></td>
+                              <td bgcolor="#EFEFEF"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <input name="Guvenlik-Kodu" type="text" id="Guvenlik-Kodu" size="10">
+                              (Be&#351; haneli, on binden büyük bir tam say&#305; giriniz)</font></td>
+                            </tr>
+                            <tr>
+                              <td><div align="right"><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Di&#287;er görü&#351; ve önerileriniz: </font></b></div></td>
+                              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+                                <textarea name="DigerGorusOneri" cols="50" rows="3" id="DigerGorusOneri"></textarea>
+                              </font></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" bgcolor="#999999"><div align="center">
+                                  <input type="submit" name="gonder" value="Gönder">
+                              </div></td>
+                            </tr>
+                        </table></td>
+                      </tr>
+                    </table>
+                  </form>

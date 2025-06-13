@@ -1,0 +1,59 @@
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bordercolor="#E20A17">
+  <tr>
+    <td>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="4" bgcolor="#C2D3FC">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="4" height="100%" bgcolor="#EFEFEF">
+        <tr> 
+          <td width="22%"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b><font size="2">&nbsp;Linkler &gt; </font><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Kurulu&#351;lar:</font></b></font></td>
+          <td width="85%">
+            <table width="100%" border="0" cellspacing="0" cellpadding="3">
+              <tr> 
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/index.html">CAD/CAM/CAE 
+                  yaz&#305;l&#305;m/donan&#305;m sa&#287;lay&#305;c&#305;lar</a></font></td>
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/egitim.html">E&#287;itim 
+                  - Kurs verenler</a></font></td>
+              </tr>
+              <tr> 
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/hizmet.html">Tasar&#305;m 
+                  hizmeti verenler, kal&#305;p imalatç&#305;lar&#305;</a></font></td>
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/patent.html">Patent 
+                  ofisleri</a></font></td>
+              </tr>
+              <tr> 
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/yan-sanayi.html">Yan 
+                  sanayi firmalar&#305;, fason imalatç&#305;lar</a></font></td>
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/ana-sanayi.html">Ana 
+                  sanayi firmalar&#305;</a></font></td>
+              </tr>
+              <tr> 
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/makine.html">CNC tezgah - makine  imalatç&#305; ve tedarikçileri</a></font></td>
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../kuruluslar/univ-arge.html">Üniversiteler 
+                  ve Ar-Ge kurulu&#351;lar&#305;</a></font></td>
+              </tr>
+              <tr> 
+                <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a class="link1" href="../kuruluslar/malzeme.html">Malzeme ve kesici tak&#305;m tedarikçileri</a></font></td>
+                <td><b><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="../images/arrow1.gif" width="25" height="7"></font></b><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../kuruluslar/vakif-dernek.html">Vak&#305;f 
+                  ve dernekler</a></font></td>
+              </tr>
+              <tr>
+                <td height="25" colspan="2" bgcolor="#FFFFFF"><div align="center">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><b><a class="link1" href="../ilan/firma-tanitim.html">Firma tan&#305;t&#305;m ilanlar&#305;</a></b></font></div></td>
+                      <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="../e-imalat/uyeler.html" target="_blank" class="link1">e-imalat.com üyesi imalat&ccedil;&#305; firmalar</a></b></font></div></td>
+                    </tr>
+                  </table>
+                </div></td>
+              </tr>
+            </table>          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

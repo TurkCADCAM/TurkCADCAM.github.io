@@ -1,0 +1,97 @@
+
+<table border=0 cellspacing=0 cellpadding=3 cols=1 width="100%" >
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <div align="center"><b><font face="Arial" color="#000000" size="2">&#304;</font><font face="Arial" color="#000000" size="2">çindekiler:</font></b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#EFEFEF"> 
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/index.html">Önsöz</a></font></b></li>
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/giris.html">Giri&#351;</a></font></b></li>
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/ozet.html">Özet</a></font></b></li>
+    </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/tek-ana.html">Otoin&#351;a Teknolojileri</a></font></b></li>
+      <br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/tek-isikla-kur.html">I&#351;&#305;kla 
+      Kür</a></font><br>
+      <font face="Verdana" size="-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a class="link1" href="../rapor/otoinsa/tek-isikla-kur-tarayarak.html">Tarayarak</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-isikla-kur-maskeleyerek.html">Maskeleyerek</a><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/tek-toz-baglama.html">Toz 
+      Ba&#287;lama</a></font><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-toz-baglama-isitarak.html">Is&#305;tarak</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-toz-baglama-yapistiriciyla.html">Yap&#305;&#351;t&#305;r&#305;c&#305;yla</a><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/tek-harc-yigma.html">Harç 
+      Y&#305;&#287;ma</a></font><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-harc-yigma-puskurterek.html">Püskürterek</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-harc-yigma-sivayarak.html">S&#305;vayarak</a><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/tek-tabaka-yigma.html">Tabaka 
+      Y&#305;&#287;ma</a></font><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-tabaka-yigma-yapistir-kes.html">Yap&#305;&#351;t&#305;r 
+      + Kes</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="../rapor/otoinsa/tek-tabaka-yigma-kes-yapistir.html">Kes 
+      + Yap&#305;&#351;t&#305;r</a><br>
+      <br>
+      <font size=-1>&nbsp;<a class="link1" href="../rapor/otoinsa/ureticiler.html">Firma-Marka &#304;ndeksi</a></font> 
+      </font></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#EFEFEF"> 
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/uyg-ana.html">Uygulama Sahalar&#305;</a></font></b></li>
+      <br>
+      <font face="Verdana" size="2"><b><font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; 
+      > </font></b></font></b><font face="Verdana" size="2">Mühendislik:</font><b><font color="#CC0000"><br>
+      &nbsp; --> </font></b><a class="link1" href="../rapor/otoinsa/uyg-muh-model.html">Kavramsal Modelleme</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; --> </font></b><a class="link1" href="../rapor/otoinsa/uyg-muh-prototip.html"> 
+      H&#305;zl&#305; Prototip &#304;malat&#305;</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; --> </font></b><a class="link1" href="../rapor/otoinsa/uyg-muh-kalip.html"> 
+      H&#305;zl&#305; Kal&#305;p imalat&#305;</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-direkt-imalat.html">Direkt 
+      &#304;malat</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-mimarlik.html">Mimarl&#305;k</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-medikal.html">Medikal</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-mat-fizik.html">Matematik, 
+      Fizik, Kimya</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-kuyumculuk.html">Kuyumculuk</a></font><br>
+    <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="../rapor/otoinsa/uyg-sanat.html">Sanat</a></font></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <li> <b><font face="Arial" size="2"><a class="link1" href="../rapor/otoinsa/turkiye.html">Türkiye'deki 
+        Uygulamalar</a></font></b></li>
+      <li> <b><font face="Arial" size="2"><a class="link1" href="../rapor/otoinsa/gelecek.html">Gelece&#287;e 
+        Dair Tahminler</a></font></b></li>
+      <li> <b><font face="Arial" size="2"><a class="link1" href="../rapor/otoinsa/kaynaklar.html">Kaynaklar</a></font></b></li>
+    </td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td bgcolor="#EFEFEF"> 
+      <li> <b><font face="Verdana" size="2">Ek Bilgiler</font></b></li>
+      <br>
+      <font face="Verdana" size="-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/talasli-imalat.html">Tala&#351;l&#305; 
+      &#304;malat Teknolojisi</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/fotopolimer.html">Fotopolimerler</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/sinterleme.html">Sinterleme 
+      Teknolojisi</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/hassas-dokum.html">Hassas Döküm 
+      Teknolojisi</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/silikon-kaliplama.html">Silikon 
+      Kal&#305;plama Teknolojisi</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="../rapor/otoinsa/donusum-tek.html">Model Dönü&#351;üm 
+    Tek.'leri</a></font></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <li> <b><font face="Verdana" size="2"><a class="link1" href="../rapor/otoinsa/guncellemeler.html">Rapor 
+        güncelleme tarihçesi<br>
+        </a> </font></b></li>
+    </td>
+  </tr>
+  <tr> 
+    <td></td>
+  </tr>
+</table>

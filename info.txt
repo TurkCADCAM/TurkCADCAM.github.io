@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: turkcadcam.net/
+site_owner: Erkut Negis - Sinerji Yayincilik
+address1: 
+address2: Istanbul
+city: Istanbul
+state: Istanbul
+country: Turkey
+postal_code: 
+phone_number:  +90
+display_email: erkut@TurkCADCAM.net
+site_name: tasarim ve imalat teknolojileri portali
+site_description: Turkiye'nin yeni urun tasarim, gelistirme, CAD/CAM/CAE, CNC, kalip ve imalat teknolojileri portali

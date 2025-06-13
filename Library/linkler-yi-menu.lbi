@@ -1,0 +1,46 @@
+ 
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" bordercolor="#E20A17">
+  <tr>
+    <td> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="4" bgcolor="#C2D3FC">
+        <tr> 
+          <td></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="4" height="100%" bgcolor="#EFEFEF">
+        <tr> 
+          <td width="30%"> 
+            <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>&nbsp;Linkler 
+              &gt; Yurt içi adresler:</b></font></div>
+          </td>
+          <td width="74%"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="1">
+              <tr> 
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/index.html">Bulu&#351;, 
+                  patent, inovasyon</a></font></b></td>
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/grup-forum.html">E-Posta 
+                  gruplar&#305; ve forumlar</a></font></b></td>
+              </tr>
+              <tr> 
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/rapor-makale.html">Rapor 
+                  ve makaleler </a></font></b></td>
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/kisisel-web.html">Ki&#351;isel 
+                  web siteleri</a></font></b></td>
+              </tr>
+              <tr> 
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/portal.html">Portallar</a></font></b></td>
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/diger.html">Di&#287;er 
+                  faydal&#305; adresler</a></font></b></td>
+              </tr>
+              <tr> 
+                <td width="50%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/arrow1.gif" width="25" height="7"><a class="link1" href="../linkler/dergi-kitap.html">Sektörel 
+                  dergi ve kitaplar</a></font></b></td>
+                <td width="50%">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

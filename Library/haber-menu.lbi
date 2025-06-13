@@ -1,0 +1,17 @@
+ 
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" bordercolor="#E20A17">
+  <tr>
+    <td>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5" height="100%" bgcolor="#EFEFEF">
+        <tr> 
+          <td width="18%"> 
+            <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>&nbsp;Haberler 
+              &gt;</b></font></div>
+          </td>
+          <td width="82%"> 
+            <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> <b>| <a class="link1" href="../haber/index.html">Son haberler</a> | <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2009/index.html">2009</a></font> | <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2008/index.html">2008</a></font> | <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2007/index.html">2007</a></font> | <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2006/index.html">2006</a></font> | <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2005/index.html">2005</a> |</font> <font face="Verdana, Arial, Helvetica, sans-serif"><a class="link1" href="../haber/2004/index.html">2004</a> |</font> <a class="link1" href="../haber/2003/index.html">2003</a> | <a class="link1" href="../haber/2002/index.html">2002</a><font face="Verdana, Arial, Helvetica, sans-serif"> | <a class="link1" href="../haber/2001/index.html">2001</a> </font>|</b></font></div>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

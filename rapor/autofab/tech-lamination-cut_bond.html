@@ -1,0 +1,965 @@
+<html><!-- #BeginTemplate "/Templates/autofab.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Autofabrication Tech. &gt; Lamination &gt; Cutting + Bonding:</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+
+<style type="text/css">
+<!--
+A.link1:link {COLOR: #0000cc; TEXT-DECORATION: none}
+A.link1:visited {COLOR: #800080; TEXT-DECORATION: none}
+A.link1:hover {TEXT-DECORATION: underline}
+
+A.link2:link {COLOR: #FFFFFF; TEXT-DECORATION: none}
+A.link2:visited {COLOR: #FFFFFF; TEXT-DECORATION: none}
+A.link2:hover {TEXT-DECORATION: underline}
+
+A.link3:link {COLOR: #000000; TEXT-DECORATION: none}
+A.link3:visited {COLOR: #000000; TEXT-DECORATION: none}
+A.link3:hover {TEXT-DECORATION: underline}
+
+A.link4:link {COLOR: #E20A17; TEXT-DECORATION: none}
+A.link4:visited {COLOR: #E20A17; TEXT-DECORATION: none}
+A.link4:hover {TEXT-DECORATION: underline}
+-->
+</style>
+
+</head>
+
+
+<body bgcolor="#C2D3FC" text="#000000">
+<table width="752" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td><!-- #BeginLibraryItem "/Library/ana-banner.lbi" --><table width="100%" border="0" cellspacing="2" cellpadding="0" bgcolor="#E20A17">
+  <tr>
+    <td bgcolor="#FFFFFF"><table width="348" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" height="100%">
+      <tr>
+        <td width="348" height="50"><a href="../../index.html"><img src="../../images/turkcadcam-banner-c.gif" alt="Ana sayfa" width="348" height="78" border="0"></a></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/ana-menu-rapor.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../../images/transparent.gif" width="100" height="6"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../index.html">Ana Sayfa</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../forum/index.php" class="link2"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../grup/index.html">E-Posta Grubu</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../ilan/index.html">&#304;lanlar</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html">Ürün-Uygulama</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../haber/index.html">Haberler</a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#E20A17"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../index.html">Rapor-Makale</a></font></b></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../../images/transparent.gif" width="100" height="3"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../kuruluslar/index.html">Linkler</a><a class="link2" href="../../anket/index.html"></a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Arial, Helvetica, sans-serif" size="-2" color="#FFFFFF"><b> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../teknomizah/index.html"></a></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../etkinlik/index.html">Etkinlikler</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../etkinlik/index.html"></a> </b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../anket/index.html"></a></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../teknomizah/index.html">TeknoMizah</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../e-imalat/index.html" target="_blank" class="link2">e-imalat.com</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../kariyer/index.html" target="_blank" class="link2">Kariyer</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../arama/index.html">Arama</a></b></font></div></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><table width="100%" border="0" cellspacing="0" cellpadding="0" height="10">
+        <tr> 
+          <td></td>
+        </tr>
+      </table>
+      <div align="center">
+        <table width="728" border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td bgcolor="#FFCCFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> <a href="../index.html"> Reports</a> &gt;</font> 
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="../imalat.html">Mfg. Tech.</a></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> &gt; </font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Towards Perfection In Manufacturing:  Autofabrication Technologies:</font></b></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="196" valign="top" bgcolor="#FFFFFF"><!-- #BeginEditable "icindekiler" --><!-- #BeginLibraryItem "/Library/autofab-menu.lbi" --><table border=0 cellspacing=0 cellpadding=3 cols=1 width="100%" >
+  <tr>
+    <td bgcolor="#FFFFFF"><div align="center"><b><font face="Arial" color="#000000" size="2">Contents</font></b></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EFEFEF"><li> <b><font face="Verdana" size="2"><a class="link1" href="index.html">Preface</a></font></b></li>
+        <li> <b><font face="Verdana" size="2"><a class="link1" href="introduction.html">Introduction</a></font></b></li>
+        <li> <b><font face="Verdana" size="2"><a class="link1" href="summary.html">Summary</a></font></b></li></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><li> <b><font face="Verdana" size="2"><a class="link1" href="tech-main.html">Autofabrication Tech.</a></font></b></li>
+        <br>
+        <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="tech-light_curing.html">Light Curing</a></font><br>
+                            <font face="Verdana" size="-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-light_curing-scanning.html">Scanning</a><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-light_curing-masking.html">Masking</a><br>
+                              <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="tech-powder_binding.html">Powder Binding </a></font><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-powder_binding-fusing.html">Fusing</a><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-powder_binding-bonding.html">Bonding</a><br>
+                              <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="tech-deposition.html">Deposition</a></font><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-deposition-spraying.html">Spraying</a><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-deposition-extruding.html">Extruding</a><br>
+                              <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="tech-lamination.html">Lamination</a></font><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-lamination-bond_cut.html">Bonding + Cutting</a><br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="link1" href="tech-lamination-cut_bond.html">Cutting + Bonding</a><br>
+                      <br>
+                      <font size=-1>&nbsp;<a class="link1" href="vendors.html">Vendor / Model Index </a></font> </font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EFEFEF"><li> <b><font face="Verdana" size="2"><a class="link1" href="appl-main.html">Applications </a></font></b></li>
+        <br>
+        <font face="Verdana" size="2"><b><font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; 
+          > </font></b></font></b><font face="Verdana" size="2">Egineering:</font><b><font color="#CC0000"><br>
+            &nbsp; --> </font></b><a class="link1" href="appl-eng-conceptual_modeling.html">Conceptual Modeling </a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; --> </font></b><a class="link1" href="appl-eng-prototyping.html"> Rapid Prototyping</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; --> </font></b><a class="link1" href="appl-eng-tooling.html"> Rapid Tooling</a></font><br>
+      <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-direct-manuf.html">Direct Manufacturing </a></font><br>
+                          <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-architecture.html">Architecture</a></font><br>
+                          <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-medical.html">Medical</a></font><br>
+                          <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-science.html">Math and Physics</a></font><br>
+                    <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-jewelry.html">Jewelry</a></font><br>
+                    <font face="Verdana" size="2"><b><font color="#CC0000">&nbsp; > </font></b><a class="link1" href="appl-art.html">Art</a></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><li> <b><font face="Arial" size="2"><a class="link1" href="appl-in-turkey.html">Applications in Turkey </a></font></b></li>
+        <li> <b><font face="Arial" size="2"><a class="link1" href="future.html">Future Prospects </a></font></b></li>
+      <li> <b><font face="Arial" size="2"><a class="link1" href="resources.html">Resources for more info </a></font></b></li></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td bgcolor="#EFEFEF"><li> <b><font face="Verdana" size="2">Referance Info.</font></b></li>
+        <br>
+        <font face="Verdana" size="-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="machining.html">Machining </a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="photopolymers.html">Photopolymers</a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="sintering.html">Sintering</a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="investment-casting.html">Investment Casting </a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="silicon-tooling.html">Silicon Tooling </a><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link1" href="conversion-tech.html">Conversion Technologies </a></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><li> <b><font face="Verdana" size="2"><a class="link1" href="guncellemeler.html">Update History</a></font></b></li>
+      <p align="center"><b><font face="Verdana" size="2"><a class="link1" href="guncellemeler.html"><br>
+        </a> </font></b></p></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #EndEditable -->
+          <p>
+		  
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&up_source_language=tr&w=160&h=60&title=&border=&output=js"></script>
+		  
+		  </p></td>
+          <td width="5"></td>
+          <td valign="top"><!-- #BeginEditable "content" -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td> <font face="Verdana" size="-2">| <a href="index.html" target="_top">Home</a> | <a href="tech-lamination-bond_cut.html">Previous Page</a> | <a href="vendors.html">Next Page</a> |</font> 
+                  <br>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=10 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td><p><b><font face="Verdana, Arial, Helvetica, sans-serif" size="3">Autofabrication 
+            Tech. &gt; </font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="3"><b>Lamination 
+            > Cutting + Bonding:</b></font></p>
+                        <p align="center"><img src="images/autofab-class42.gif" vspace=5 NOSAVE border=0 usemap="#map" height=269 width=539>
+                          <map name="map">
+                            <area shape="rect" coords="131,136,241,162" href="tech-powder_binding.html">
+                            <area shape="rect" coords="269,136,353,161" href="tech-deposition.html">
+                            <area shape="rect" coords="376,137,475,161" href="tech-lamination.html">
+                            <area shape="rect" coords="400,177,521,203" href="tech-lamination-bond_cut.html">
+                            <area shape="rect" coords="403,220,522,245" href="tech-lamination-cut_bond.html">
+                            <area shape="rect" coords="293,219,365,246" href="tech-deposition-extruding.html">
+                            <area shape="rect" coords="292,178,365,200" href="tech-deposition-spraying.html">
+                            <area shape="rect" coords="153,223,221,244" href="tech-powder_binding-bonding.html">
+                            <area shape="rect" coords="152,180,217,206" href="tech-powder_binding-fusing.html">
+                            <area shape="rect" coords="40,177,112,200" href="tech-light_curing-scanning.html">
+                            <area shape="rect" coords="39,223,107,243" href="tech-light_curing-masking.html">
+                            <area shape="rect" coords="113,25,413,65" href="tech-main.html" alt="Otoinşa Teknolojileri" title="Otoinşa Teknolojileri">
+                            <area shape="rect" coords="17,138,105,161" href="tech-light_curing.html">
+                          </map>
+                          <map name="map"> 
+                            <area shape="rect" coords="142,122,240,147" href="tech-powder_binding.html">
+                            <area shape="rect" coords="262,122,346,147" href="tech-deposition.html">
+                            <area shape="rect" coords="383,121,488,146" href="tech-lamination.html">
+                            <area shape="rect" coords="411,162,507,187" href="tech-lamination-bond_cut.html">
+                            <area shape="rect" coords="412,206,507,230" href="tech-lamination-cut_bond.html">
+                            <area shape="rect" coords="288,206,365,229" href="tech-deposition-extruding.html">
+                            <area shape="rect" coords="288,161,375,186" href="tech-deposition-spraying.html">
+                            <area shape="rect" coords="164,207,255,230" href="tech-powder_binding-bonding.html">
+                            <area shape="rect" coords="165,164,225,188" href="tech-powder_binding-fusing.html">
+                            <area shape="rect" coords="39,162,125,186" href="tech-light_curing-scanning.html">
+                            <area shape="rect" coords="39,206,134,228" href="tech-light_curing-masking.html">
+                            <area shape="rect" coords="124,14,361,54" href="tech-main.html" alt="Otoinşa Teknolojileri" title="Otoinşa Teknolojileri">
+                            <area shape="rect" coords="15,121,95,146" href="tech-light_curing.html">
+                          </map>
+                        <font face="Verdana" size="-1"><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"><b>Not:</b> Şemadaki başlıkları tıklayarak, direkt açıklama sayfalarını görebilirsiniz</font></font><font size="-2" face="Verdana, Arial, Helvetica, sans-serif">.</font></p>
+                        <p><font face="Verdana" size="-1">Bu teknikte, önce tabakalar 
+                          çeperlerinden kesilir ve sonra bir önceki katmana yapıştırılır. 
+                          Kes + Yapıştır tekniği, mimari maketlerin zemininde bulunan 
+                          topografik (dağ, tepe gibi yeryüzü şekilleri) modellerin 
+                          tabakalar halinde kesilip birbiri üstüne yapıştırılarak 
+                          yapılmasına çok benzelik gösterir.</font> <br>
+                          <font face="Verdana" size="-1">Bu yöntemin diğer tabaka 
+                            yığma yönteminden avantajı, destek malzemesi olarak ayrı 
+                            bir tabaka malzemesinin kullanılmasına imkan vermesidir. 
+                            Bu sayede desteklerin sonradan kaldırılması kolay olabilir. 
+                            Bu tekniğin dezavantajı ise, kesilen katmanların inşa 
+                            halindeki yüzeye hassas bir şekilde konumlandırılarak 
+                            yapıştırılabilmesindeki güçlüktür.</font> <br>
+                          <font face="Verdana" size="-1">Bu tekniği kullanan uygulamaların 
+                              çoğunda, otomatik olarak kesilen tabakaların yapıştırılması 
+                            manuel olarak gerçekleştirilir:</font> 
+                        </p>
+                        <ul>
+                          <li> <font face="Verdana" size="-1"><a href="#cam-lem">CAM-LEM 
+                            Inc.</a>, (ABD)</font></li>
+                          <li> <font face="Verdana" size="-1"><a href="#ennex">Ennex</a>, 
+                            (ABD), <font face="Verdana" size="-1">Offset Fabbing</font></font></li>
+                          <li><font face="Verdana" size="-1"><a href="#schroff">Schroff 
+                            Development Corp</a>., (ABD), JP System 5</font></li>
+                          <li> <font face="Verdana" size="-1"><a href="#boxford">Boxford 
+                            Ltd.</a>, (İngiltere), RapidPRO</font></li>
+                          <li> <font face="Verdana" size="-1"><a href="#gilmore">Gilmore 
+                            Engineers Pty Ltd.</a>, (Avustralya), TruSurf</font></li>
+                          <li><font face="Verdana" size="-1"><a href="#sparx">Sparx 
+                            AB</a>, (İsveç), HotPlot</font></li>
+                          <li> <font face="Verdana" size="-1"><a href="#cirtes"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">CIRTES</font></a> 
+                            (Fransa), <font face="Verdana" size="-1">Stratoconception</font></font></li>
+                          <li> <font face="Verdana" size="-1"><a href="#custom-motion">Custom 
+                            Motion Inc.</a> (ABD)<b> </b>customLAM</font></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="cam-lem"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-usa.jpg" alt="İsrail" NOSAVE border=0 height=25 width=47></td>
+                      <td bgcolor="#33CCFF"><b><font face="Verdana" size="-1">&nbsp; 
+                        CAM-LEM Inc., (CL-100) | <a href="http://www.camlem.com/camlemprocess.html" target="_blank">www.camlem.com</a> 
+                        |</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> 
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">CAM-LEM 
+                          Ekim 1994 tarihinde ABD Ordusu'ndan aldığı maddi destekle 
+                          kurulmuş ve Ar-Ge çalışmalarını Case Western Reserve 
+                          University ve diğer bazı üniversite ve araştırma kuruluşlarıyla 
+                          ortak yapmıştır. CAM-LEM, &quot;Computer-Aided Manufacturing 
+                          of Laminated Engineering Materials&quot; yani &quot;tabaka 
+                          halindeki mühendislik malzemelerinin bilgisayar destekli 
+                          imalatı&quot; anlamına gelmektedir. Case Western Reserve 
+                          Üniv.'sinden Dr. Arthur H. Heuer, Dr. James D. Cawley 
+                          ve Dr. Wyatt S. Newman CAM-LEM prosesini tasarlamış 
+                          ve patent için başvurmuşlardır. Aynı kişiler CAM-LEM 
+                          firmasının kurucu ve yöneticileridir. CAM-LEM, geliştirtiği 
+                          autofabrication cihazını kullanarak Şubat 2000'den itibaren 
+                          seramik ve metal parça imalat hizmetleri vermeye başlamıştır.</font></p>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-cl100.jpg" width="175" height="150" align="right" vspace="5" hspace="5"> 
+                          <b>CL-100</b> modeli autofabrication cihazı 150x150x150mm inşa 
+                          hacmine sahiptir. CL-100 makinesi tek bir otomatik inşa 
+                          çevriminde 5 farklı tip (kimyasal özellik veya kalınlık 
+                          olarak) malzemeyi kullanabilir. Destek yapısı olarak 
+                          ise sinterleme sırasında yanarak bünyeden atılabilen 
+                          &quot;fugitive&quot; malzemeler kullanılır. Bu sayede 
+                          inşa edilen parçalarda iç boşluklar ve kanallar oluşturulabilir. 
+                          İnşa sırasında 0.1-0.6 mm veya daha kalın katmanlar 
+                          kullanılır. Sinterleme sırasında, malzemeye göre %12-18 
+                          arasında değişen çekmeyi kompanse edecek şekilde parçalar 
+                          biraz büyük şekilde inşa edilir.</font></p>
+                        <p> <b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">CAM-LEM 
+                          Prosesi: </font></b> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3" bgcolor="#FFFFFF">
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-p1.gif" width="152" height="72"></font></div>
+                            </td>
+                            <td colspan="2"> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-p2.gif" width="275" height="91"></font></div>
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>1-</b> 
+                              Lazer ile, bilgisayar kontrollü olarak seramik veya 
+                              metal toz karışımlı ham katmanlar kesilir.</font></td>
+                            <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>2-</b> 
+                              Kesilen katmanlar vakumlu robotik manipulatörlerle 
+                              otomatik olarak üst üste eklenir. Aynı katmanda 
+                              birden çok farklı malzeme kullanılabilir. Destek 
+                              amacıyla sinterleme sırasında yanabilen uçucu (fugitive) 
+                              malzemeler kullanılır.<br>
+                              </font></td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><img src="images/cam-lem-p3.gif" width="155" height="99"></font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><img src="images/cam-lem-p4.gif" width="157" height="91"></font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><img src="images/cam-lem-p5.gif" width="129" height="78"></font></div>
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>3-</b> 
+                              &quot;Green state&quot; ismi verilen pişmemiş haldeki 
+                              ham parçaya sıcak ortamda basınç uygulanarak katmanlar 
+                              arası yapışma sağlanır. Buna &quot;lamination&quot; 
+                              ismi verilir.</font></td>
+                            <td valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>4-</b> 
+                              Parça, sıcaklık kontrollü bir fırında tam yoğunluk 
+                              ve monolitik bir yapıya erişinceye kadar sinterlenir. 
+                              Bu esnada %12-18 çekme olur.</font></td>
+                            <td valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>5-</b> 
+                              Sinterleme sonrası parça %100 yoğunluğa ve yüksek 
+                              mukavemete erişir.</font></td>
+                          </tr>
+                        </table>
+                        <br>
+                        <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Aşağıda</b>, 
+                        CAM-LEM cihazıyla inşa edilmiş bazı seramik parça örnekleri 
+                        görülmektedir:</font><br>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-alumina50.jpg" width="139" height="150"></font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-dogs-femur.jpg" width="159" height="150" alt="Bir köpeğe ait femur modeli"></font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/cam-lem-bearing.jpg" width="178" height="150"></font></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="ennex"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-usa.jpg" alt="İsrail" NOSAVE border=0 height=25 width=47></td>
+                      <td bgcolor="#FFCC00"><b><font face="Verdana" size="-1">&nbsp; 
+                        Ennex, (Offset Fabbing) | <a href="http://www.ennex.com/Technology/index.asp" target="_blank">www.ennex.com</a> 
+                        |</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> 
+                        <p><font face="Verdana" size="-1"><a href="resources.html#m-burns">Automated 
+                          Fabrication</a> isimli kitabın yazarı Marshall Burns 
+                          tarafından kurulmuş olan Ennex firması, OffsetT Fabbing 
+                          ismi verilen yeni bir autofabrication cihazını geliştirme çalışmalarını 
+                          sürdürmektedir. Ağustos 1996 tarihinde basın duyurusu 
+                          yapılan OffsetT Fabbing konusunda Marshall Burns 5,514,232 
+                          ve 5,879,489 numaralı iki ABD patenti de almıştır. &quot;Genie 
+                          Studio Fabber&quot; markası altında üretilecek cihazın 
+                          piyasadaki benzerlerinden 20 kat daha hızlı çalışması 
+                          hedeflenmektedir.</font> 
+                        <p><font face="Verdana" size="-1"><a href="#schroff">JP5</a> 
+                          sisteminin mucidi, University of Utah'dan Prof. Charles 
+                          Thomas bu sistemin daha da geliştirilmesi konusunda 
+                          Ennex ile çalışmaktadır.<br>
+                          </font><font face="Verdana" size="-1"><b><br>
+                          OffsetT Fabbing prosesi:</b></font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td> 
+                              <div align="center"><img src="images/ennex-offset.gif" width="500" height="149"></div>
+                            </td>
+                          </tr>
+                        </table>
+                        <font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Bir 
+                        bıçak (knife) kullanılarak destekleyici taşıyıcı (carrier) 
+                        üzerindeki ince tabaka halindeki inşa malzemesi kesilir. 
+                        Kesim sonrasında taşıyıcı şerit inşa edilmekte olan parçanın 
+                        üzerine getirilerek kesilen parçalar yüzeye yapıştırılır. 
+                        Sonra taşıyıcı şerit kaldırılarak yüzey bir sonraki tabaka 
+                        yapıştırılması için hazır hale getirilir.</font> 
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Aşağıda</b>, 
+                          prototip safhasındaki bir cihazla inşa edilmiş iki model 
+                          görülmektedir:</font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td> 
+                              <div align="center"><img src="images/ennex-offset-s1.jpg" width="311" height="120"><img src="images/ennex-offset-s2.jpg" width="111" height="120" hspace="10"></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <br>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">YARI 
+                        OTOMATİK SİSTEMLER:<br>
+                        </font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Yukarıda 
+                        gösterilen tam otomatik cihazlara ek olarak aynı temel 
+                        prensibi paylaşan fakat kesilen katmanların manuel olarak 
+                        birleştirildiği birçok sistem de mevcuttur. Diğerlerine 
+                        kıyasla çok düşük maliyetle üretilebildikleri için cazip 
+                        olan bu sistemler özellikle eğitim amaçlı olarak üniversitelerde 
+                        yaygın uygulama alanı bulmuşlardır:</font></td>
+                    </tr>
+                  </table>
+                  <a name="schroff"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#00CC00" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-usa.jpg" alt="İsrail" NOSAVE border=0 height=25 width=47></td>
+                      <td><b><font face="Verdana" size="-1">&nbsp; Schroff Development 
+                        Corp. | <a href="http://www.schroff.com" target="_blank">www.schroff.com</a> 
+                        | </font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> <font face="Verdana" size="-1"> University of Utah'dan 
+                        Prof. Charles Thomas </font><font face="Verdana" size="-1">JP5 
+                        sisteminin mucididir.</font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <tr> 
+                            <td align="left"><font face="Verdana" size="-1">5,000 
+                              USD altında fiyata sahip ilk autofabrication sistemi olan 
+                              JP Systyem 5, ABD'nde Schroff Development Corp. 
+                              tarafından geliştirilmiş ve daha ziyade üniversitelerde 
+                              eğitim amacıyla kullanılmaktadır. Tek yüzü yapışkanlı 
+                              olan kağıtlar özel bir yazılım ve standart bir PC 
+                              kontrollü kesici kullanılarakı kesilir ve inşa işlemi 
+                              ise manuel olarak yapılır. Genellikle bir parça 
+                              CAD yazılımında alt parçalara bölünür ve her yaprakta 
+                              birden fazla parçanın katmanları bir seferde kesilir. 
+                              Üste sağdaki resimde bir yaprakta tek parçaya ait 
+                              6 kesit görülmektedir. Referans pimleri kullanılarak 
+                              katmanlar arası kayma azaltılır. Yapıştırma sonrası 
+                              taşıyıcı kağıt alınır...</font></td>
+                            <td><font face="Verdana" size="-1"><img src="images/sdc-cutter.jpg" width="137" height="120"><img src="images/sdc-process.jpg" width="180" height="120" hspace="5"><br>
+                              <img src="images/schroff-jps5-ass.jpg" hspace=0 vspace=5 NOSAVE height=206 width=300></font></td>
+                          </tr>
+                        </table>
+                        <br>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td><img src="images/schroff-jps5-samples.jpg" hspace=5 vspace=5 NOSAVE height=151 width=366 align=right><font face="Verdana" size="-1">Soldan 
+                              sağa 3. sırada duran model 23 yapraktan kesilen 
+                              370 katmandan oluşmuş ve 3 saatte inşa edilmiştir. 
+                              Bu model 6 parça halinde inşa edilmiş ve sonra manuel 
+                              olarak birbirlerine yapıştırılmıştır.</font></td>
+                          </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana" size="-1"><img src="images/sdc-ic.jpg" width="199" height="120" vspace="5" hspace="5"></font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana" size="-1"><img src="images/sdc-scp.jpg" width="188" height="120" vspace="5" hspace="5"></font></div>
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Solda 
+                                master model, sağda ise bu model kullanılarak 
+                                hassas dökümle imal edilmiş metal parça görülmekte.</font></div>
+                            </td>
+                            <td> 
+                              <div align="center"><font face="Verdana" size="-1"> 
+                                Yukarıda, kum döküm kalıp üretiminde kullanılacak 
+                                bir model örneği görülmektedir. </font></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="boxford"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#00CC00" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-uk.gif" alt="İngiltere" NOSAVE border=0 height=25 width=50></td>
+                      <td><b><font face="Verdana" size="-1">&nbsp; Boxford Ltd., 
+                        (RapidPRO) | <a href="http://www.boxford.co.uk/boxford/docs/products/rapid.htm" target="_blank">www.boxford.co.uk</a> 
+                        |</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td><font face="Verdana" size="-1"><img src="images/boxford-examples.jpg" width="219" height="150" align="right">ABD 
+                        tabanlı <a href="#schroff">JP Systyem 5</a> benzeri olan 
+                        bu düşük maliyetli sistem de daha ziyade üniversitelerde 
+                        eğitim amacıyla kullanılmaktadır. Tek yüzü yapışkanlı 
+                        olan kağıtlar özel bir yazılım ve standart bir PC kontrollü 
+                        kesici kullanılarak kesilir ve inşa işlemi ise manuel 
+                        olarak yapılır. Genellikle bir parça CAD yazılımında alt 
+                        parçalara bölünür ve her yaprakta birden fazla parçanın 
+                        katmanları bir seferde kesilir. Alttaki resimlerde bir 
+                        cep telefonu kapak modelinin inşa safhaları görülmektedir. 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <div align="center"><font face="Verdana" size="-1"><img src="images/boxford-phone1.jpg" width="181" height="120" hspace="2"> 
+                          <img src="images/boxford-phone2.jpg" width="173" height="120" hspace="2"> 
+                          <img src="images/boxford-phone3.jpg" width="157" height="120" hspace="2"></font></div>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <p><font face="Verdana" size="-1">Solda: katmanlardaki 
+                          kaymayı önlemek için iki adet pim kullanılmıştır. Ortada: 
+                          taşıyıcı yapraktan kesilen inşa katmanlarının yüzeye 
+                          yapıştırılması görülmektedir. Sağda: İnşa sonrası parça 
+                          yüzey kalitesini arttırmak için zımparalanabilir.<br>
+                          <br>
+                          </font><font face="Verdana" size="-1">Aynı sistemle 
+                          imal edilmiş prototip kalıplar vakum form işlemine ve 
+                          düşük basınçlı plastik enjeksiyona da dayanabilirler.</font></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="gilmore"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#00CC00" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-australia.gif" alt="Avustralya" NOSAVE border=0 height=25 width=42></td>
+                      <td bgcolor="#33CCFF"><b><font face="Verdana" size="-1">&nbsp; 
+                        Gilmore Engineers Pty Ltd., (TruSurf) | </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="http://gilmore-engineers.com/TruSurf.html" target="_blank">gilmore-engineers.com</a></font> 
+                        <font face="Verdana" size="-1">|</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> 
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+                          Avustralya'da Raymond Hope isimli bir öğrencinin doktora 
+                          tez çalışması olarak başlayan bu proje daha sonra <b><font face="Verdana" size="-1">Gilmore 
+                          Engineers Pty Ltd.,</font></b> tarafından ticari hale 
+                          getirilmiştir. Sistemin satışı yerine model üretim servisi 
+                          verilmektedir. Bu teknikte 10mm veya daha kalın tabakalar 
+                          halinde gelen köpük malzeme çeperlerinden kesilerek 
+                          manuel olarak yapıştırılır. Sistem özellikle büyük boylu 
+                          modelleri düşük maliyetle inşa etmeye müsaittir. İnaşa 
+                          sırasında kullanılan katmanlar çok kalın olduğu için 
+                          yüzeylerde merdiven etkisini kaldırmak amacıyla çeperler 
+                          eğimli olarak kesilir. Aynı zamanda geometriye bağlı 
+                          olarak tek bir inşa sırasında farklı kalınlıklarda tabakalar 
+                          kullanılabilir. Yüzey eğimlerinin hızla değiştiği bölgelerde 
+                          ince, yavaş değiştiği bölgelerde ise kalın tabaka kullanılarak 
+                          inşa hızı ve kalitesi arttırılır. Polisitren (polystyrene) 
+                          köpük tabakaların kesimi için 5 eksenli bir su jeti 
+                          kesicisi kullanılır. Yüzey eğiminin kolay hesaplanabilmesi 
+                          için, birçok sistemde kullanılan STL formatının yerine 
+                          NURBS (Non-Uniform Rational B-Spline) formatında 3D 
+                          yüzey CAD modelleri hesaplamada kullanılır. </font></p>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/gilmore-sloped-layer-options.gif" width="501" height="357" hspace="18"><br>
+                          CAD yüzeyine ve uygulanan stratejiye bağlı olarak katmanların 
+                          4 farklı metodla kesilebileceğini gösteren bir çizim 
+                          yukarıda gösterilmiştri. Bu konuda detaylı bilgi ve 
+                          hesaplamayla ilgili gerekli formüllere aşağıdaki makalelerden 
+                          erişilebilir. Bu makalelerin üçünün online versiyonları 
+                          da mevcuttur:</font></p>
+                        <ul>
+                          <li><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Hope, 
+                            R.L., Roth, R.N., Riek, A.T. &quot;Rapid Generation 
+                            of Large Objects&quot;, Proc. First Asia/ Pacific 
+                            Conference on Rapid Product Development, QMI, Brisbane, 
+                            1995. </font></li>
+                          <li><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Hope, 
+                            R.L., Roth, R.N., Riek, A.T. &quot;<a href="http://gilmore-engineers.com/TruSurf/report2.htm" target="_blank">Layer 
+                            Building With Sloping Edges For Rapid Prototyping 
+                            Of Large Objects</a>&quot;, Proc. 5th European Conference 
+                            on Rapid Prototyping and Manufacturing, Helsinki, 
+                            Finland. 4-6 June 1996. <br>
+                            </font></li>
+                          <li><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Hope, 
+                            R.L., Jacobs, P.A, Roth, R.N. (1997) &quot;<a href="http://gilmore-engineers.com/TruSurf/rpj_p1/rps2_txt.htm" target="_blank">Rapid 
+                            prototyping with sloping surfaces</a>&quot;, Rapid 
+                            Prototyping Journal, vol 3, no.1. pp 12-19. (Rapid 
+                            Prototyping Journal tarafından 1997'nin en iyi makalesi 
+                            seçilmiştir)</font></li>
+                          <li><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Hope, 
+                            R.L., Roth, R.N., Jacobs, P.A (1997) &quot;<a href="http://gilmore-engineers.com/TruSurf/rpj_p2/adaptive.htm" target="_blank">Adaptive 
+                            slicing with sloping layer surfaces</a>&quot;, Rapid 
+                            Prototyping Journal, vol 3, no.3. pp 89-98.</font></li>
+                        </ul>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td> 
+                              <div align="center"><a href="images/gilmore-dolphin.jpg" target="_blank"><img src="images/gilmore-dolphin-t.jpg" width="213" height="150" border="2" vspace="5" hspace="5" alt="zoom in"></a><img src="images/gilmore-dolphin2.jpg" width="222" height="150" vspace="7" hspace="7"></div>
+                            </td>
+                          </tr>
+                        </table>
+                        <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Solda</b> 
+                        görülen 1692 mm x 660 mm x 1274 mm boyutlarındaki yunus 
+                        modeli 10, 20, ve 30 mm kalınlığında 142 adet polisitren 
+                        köpük tabakalarından inşa edilmiştir. Bu katmanlar 5 eksenli 
+                        bir su jetli kesici tarafından 4 saatte Queensland İmalat 
+                        Enstitüsü'nde kesilmişlerdir. Manuel montaj ise bir kişinin 
+                        3 saatini almıştır. Aynı modelin SLA 500 ile parçalar 
+                        halinde üretilip monte edilmesinin 10 gün alacağı hesaplanmıştır. 
+                        <b>Sağda</b>, yüzey işlemleri ve boyama sonrası model 
+                        görülmektedir.<br>
+                        </font></td>
+                    </tr>
+                  </table>
+                  <a name="sparx"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-sweden.gif" alt="İsveç" hspace=2 NOSAVE height=25 width=42></td>
+                      <td bgcolor="#FF6666"><b><font face="Verdana" size="-1">&nbsp; 
+                        Sparx AB, (HotPlot)</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> 
+                        <center>
+                          <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">HotPlot 
+                            sistemi, birçok patent ve firma sahibi İsveçli mucit 
+                            Ralf Larson tarafından geliştirilerek 1991'de kurduğu 
+                            Sparx AB firması bünyesinde ticari hale gelmiştir. 
+                            Az miktarda satış gerçekleştirdikten sonra 1995'de 
+                            bu firmanın faaliyetlerini durduran Larson, ardından 
+                            ısıtarak toz bağlama prensibine göre çalışan autofabrication 
+                            cihazları üzerine araştırma yapmaya başlayarak</font> 
+                            <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="tech-powder_binding-fusing.html#arcam">Arcam 
+                            AB</a> ve <a href="tech-powder_binding-fusing.html#speedpart">SpeedPart</a> 
+                            firmalarını kurmuştur. Larson ve kurucusu olduğu şirketler 
+                            hakkında <a href="http://www.swedecopter.se" target="_blank">www.swedecopter.se</a> 
+                            adresinden ayrıntılı bilgi alınabilir.</font></p>
+                          <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Hot 
+                            Plot sistemi, AutoCAD HPGL formatında aldığı kesit 
+                            verilerine bağlı olarak 1 mm'lik kendinden yapışkanlı 
+                            polystyrene tabakaları ısıtılmış bir elektrot ile 
+                            düz yataklı bir A3 çizici (flat-bed pen plotter) kullanarak 
+                            keser. Bu sistemde standart bir çiziciye kalem yerine 
+                            sıcak elektrot bağlanmıştır. Tabakalar kesildikten 
+                            sonra bir fikstür yardımıyla manuel olarak üst üste 
+                            yapıştırılarak parçanın inşası tamamlanır.</font> 
+                          <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                            <tr> 
+                              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Soldaki 
+                                resimde Hot Plot sistemi ve HPGL verinin yüklendiği 
+                                3.5&quot; magnetik sürücü, resmin yukarısında 
+                                ise kesilen tabakaların manuel olarak yapıştırıldığı 
+                                fikstür görülmektedir. Sağda, Hot Plot kesicisindeki 
+                                ısıtılmış elektrot kalemi gözükmektedir.</font></td>
+                              <td><a href="images/sparx-hot-plot-system.jpg" target="_blank"><img src="images/sparx-hot-plot-system-t.jpg" width="140" height="150" vspace="0" hspace="5" border="2"></a><a href="images/sparx-hot-plot-detail.jpg" target="_blank"><img src="images/sparx-hot-plot-detail-t.jpg" width="146" height="150" border="2" vspace="0" hspace="5"></a></td>
+                            </tr>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                            <tr> 
+                              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Solda, 
+                                Volvo için yapılmış bir motor bağlantı destek 
+                                parçası, sağda ise SAAB için tasarlanmış bir yağ 
+                                tankına ait Sparx Hot Plot ile inşa edilmiş modeller 
+                                görülmektedir.</font></td>
+                              <td><a href="images/sparx-hot-plot-sample1.jpg" target="_blank"><img src="images/sparx-hot-plot-sample1-t.jpg" width="197" height="150" vspace="5" hspace="5" border="2"></a><a href="images/sparx-hot-plot-sample2.jpg" target="_blank"><img src="images/sparx-hot-plot-sample2-t.jpg" width="142" height="150" border="2" vspace="5" hspace="5"></a></td>
+                            </tr>
+                          </table>
+                        </center>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="cirtes"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" bgcolor="#00CC00" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-france.gif" alt="Fransa" NOSAVE border=0 height=25 width=37></td>
+                      <td><b><font face="Verdana" size="-1">&nbsp; </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">CIRTES</font><font face="Verdana" size="-1">, 
+                        (Stratoconception) | </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="http://www.cirtes.fr/strato" target="_blank">www.cirtes.fr/strato</a></font></b>&nbsp;<b><font face="Verdana" size="-1"> 
+                        |</font></b></td>
+                    </tr>
+                    <tr> 
+                      <td width="5%"></td>
+                      <td height="1"></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td> 
+                        <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1">1990'dan 
+                          itibaren konuyla ilgili çalışan Claude BARLIER ve ekibi, 
+                          1992 yılında Fransa'da kurulan Avrupa Hızlı Prototip 
+                          Merkezi CIRTES ile yaptıkları işbirliği ile Stratoconception 
+                          sistemini geliştirilmişlerdir. Bu ekip, konuyla ilgili 
+                          birçok Fransız ve Avrupa patenti almış ve 1991'den bu 
+                          yana birçok makale yayınlamışlardır. </font></p>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="images/stratoconception-principle.jpg" target="_blank"><img src="images/stratoconception-principle-t.jpg" width="251" height="150" align="right" border="2" hspace="5"></a>Stratoconception 
+                          sistemi, inşa yöntemiyle talaşlı imalatın bir melez 
+                          çözümü olan, 3D CAD modelinin kalın katmanlara ayrıldıktan 
+                          sonra parçalar halinde işlenip sonrasında birbirlerine 
+                          yapıştırılmasıyla imalat prensibine dayanır. Kesim ve 
+                          işleme için CNC tezgahlar, lazer veya su jeti kullanılır. 
+                          Aynı teknoloji orotopetik protezler imal etmek için 
+                          de revize edilmiş ve OrthoStrato Concept® ismiyle kullanılmaktadır: 
+                          <a href="http://www.cirtes.fr/orthostrato/" target="_blank">www.cirtes.fr/orthostrato</a></font></p>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Daha 
+                          sonra sistemin ticari hale getirilmesi için CIRTES'in 
+                          lisansı ve işbirliği ile <a href="http://www.charlyrobot.com" target="_blank">Charlyrobot</a> 
+                          kurulmuştur. Charlyrobot sistemin eğitim kurumlarına 
+                          tanıtımı ve satışıyla da ilgilenmektedir. Bunun haricinde 
+                          <a href="http://www.realmeca.com" target="_blank">REALMECA</a> 
+                          ve <a href="http://www.lasertechno.com" target="_blank">Laser 
+                          Technologies</a> firmları da Stratoconception sistemi 
+                          için tezgah üretmektedirler.<br>
+                          </font></p>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Bu 
+                          teknolojinin endüstriye adaptasyonu, metal malzemeler 
+                          ve hızlı kalıp uygulamaları konusunda ise teknoloji 
+                          integratörü olarak <a href="http://www.rp2i.com" target="_blank">rp2i 
+                          S.A.</a> faaliyet göstermektedir.</font></p>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <tr>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Charlyrobot, 
+                              A4 boyutundan (210 x 300 mm) metrelerce boya kadar 
+                              (2100 x 3000 mm) işleme alanına sahip cihazlar üretmektedir.</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/strato-cra4.jpg" width="99" height="100" alt="CR A4"></font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/strato-crm1000.jpg" width="143" height="100" hspace="5" alt="CRM 1000"></font></td>
+                          </tr>
+                        </table>
+                        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Aşağıda, 
+                          Stratoconception tekniğiyle inşa edilmiş örnek parça 
+                          ve kalıplar görülmektedir. İnşa malzemesi olarak ahşap 
+                          (kontraplak), köpük, plastik ve metal tabakalar kullanılabilmektedir:</font> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/strato-sloped.jpg" width="192" height="100" hspace="3"><img src="images/strato-tubulur.jpg" width="168" height="100" hspace="3" alt="kum döküm modeli"><img src="images/strato-tool.jpg" width="154" height="100" hspace="3" alt="metal lamine kalıp"></font></div>
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td> 
+                              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="images/strato-head.gif" width="140" height="150" vspace="7" hspace="5"><img src="images/strato-ring.jpg" width="143" height="150" vspace="7" hspace="5" alt="yüzük"><a href="images/strato-foam.jpg" target="_blank"><img src="images/strato-foam-t.jpg" width="96" height="150" border="2" vspace="5" hspace="5" alt="plistrien köpükden kalıp"></a></font></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <a name="custom-motion"></a> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=0 width="100%" >
+                    <tr> 
+                      <td width="5%"><img src="images/flag-usa.jpg" alt="İsrail" NOSAVE border=0 height=25 width=47></td>
+                      <td bgcolor="#33CCFF"><b><font face="Verdana" size="-1">&nbsp; 
+                        Custom Motion Inc., (customLAM) | <a href="http://www.custommotion.com/customlam.htm" target="_blank">www.custommotion.com</a> 
+                        |</font></b></td>
+                    </tr>
+                  </table>
+                  <table border=0 cellspacing=0 cellpadding=5 cols=1 width="100%" bgcolor="#FFFFFF" >
+                    <tr> 
+                      <td><img src="images/custom-lam.jpg" width="203" height="150" align="right" vspace="5" hspace="5"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Talaşlı 
+                        imalat ile inşa tekniğini birleştirildiği melez çözümlerden 
+                        biri olan Custom Motion Firması'nın geliştirdiği customLAM 
+                        tekniğinde müşterinin ihtiyaçlarına göre özel işleme merkezi 
+                        imal edilmektedir. Her sistemde aynı kontrol bilgisayarı 
+                        ve yazılımı bulunmakta ama kullanılacak malzeme ve katmanların 
+                        büyüklüğüne göre makine tasarım ve imalatı farklı yapılmaktadır. 
+                        Kalın karton, plastik tabakalar, MDF (yüksek yoğunluklu 
+                        sunta) lamine ahşap ve benzeri malzemeler kesme ve inşa 
+                        işleminde kullanılırlar. İstenirse rulodan beslenen esnek 
+                        malzemeler de kullanılabilir. <b>Resimde</b>, bir customLAM 
+                        cihazı atölye ortamında görülmektedir.</font></td>
+                    </tr>
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td></td>
+                    </tr>
+                  </table>
+                  <font face="Verdana" size="-2">| <a href="index.html" target="_top">Home</a> | <a href="tech-lamination-bond_cut.html">Previous Page</a> | <a href="vendors.html">Next Page</a> |</font> 
+                </td>
+              </tr>
+            </table>
+            <!-- #EndEditable --></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="10">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+      <div align="center">
+        <table width="728" border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr>
+            <td>            </td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" height="4">
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      </div><!-- #BeginLibraryItem "/Library/ana-menu-rapor.lbi" --><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../../images/transparent.gif" width="100" height="6"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../index.html">Ana Sayfa</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../forum/index.php" class="link2"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../grup/index.html">E-Posta Grubu</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../ilan/index.html">&#304;lanlar</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html">Ürün-Uygulama</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../haber/index.html">Haberler</a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../urun/index.html"></a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#E20A17"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../index.html">Rapor-Makale</a></font></b></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../../images/transparent.gif" width="100" height="3"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../kuruluslar/index.html">Linkler</a><a class="link2" href="../../anket/index.html"></a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Arial, Helvetica, sans-serif" size="-2" color="#FFFFFF"><b> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../../teknomizah/index.html"></a></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../etkinlik/index.html">Etkinlikler</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../etkinlik/index.html"></a> </b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../anket/index.html"></a></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../teknomizah/index.html">TeknoMizah</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../e-imalat/index.html" target="_blank" class="link2">e-imalat.com</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../../kariyer/index.html" target="_blank" class="link2">Kariyer</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../../arama/index.html">Arama</a></b></font></div></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/imza.lbi" --> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><img src="../../images/transparent.gif" width="100" height="4"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+  <tr> 
+    <td bgcolor="#666666" height="12"> 
+    <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2" color="#FFFFFF">TurkCADCAM.net &gt; Türkiye'nin yeni ürün tasar&#305;m, geli&#351;tirme, CAD/CAM/CAE, CNC, kal&#305;p ve imalat teknolojileri portal&#305;</font></div>    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#666666" height="12"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF" size="2">***** 
+    Sektörün profesyonel bilgi ve i&#351;birli&#287;i platformu *****</font></b></font></div></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">© 
+        2002-2020&nbsp; <a class="link4" href="../../sinerji/index.html">Sinerji Yay&#305;nc&#305;l&#305;k, 
+        Tan&#305;t&#305;m ve Dan&#305;&#351;manl&#305;k Hizmetleri</a><br>
+        Bu portaldaki içerik, ancak kaynak belirtilmesi ve izin al&#305;nmas&#305; &#351;art&#305;yla 
+      yay&#305;nlanabilir.</font></div>    </td>
+      
+  </tr>
+  <tr>
+    <td height="15"></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+      <tr>
+        <td height="27" align="center"><table width="68%" height="323" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><div id="fb-root"> </div>
+              <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+              <fb:like-box href="https://www.facebook.com/TurkCADCAM" width="586" show_faces="true" border_color="" stream="true" header="false"></fb:like-box></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    
+  
+    
+    </td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+  </tr>
+</table>
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7198839-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+<!-- #EndTemplate --></html>

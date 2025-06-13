@@ -1,0 +1,30 @@
+ 
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="4" bgcolor="#C2D3FC">
+  <tr> 
+    <td></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bordercolor="#E20A17">
+  <tr>
+    <td>
+      <table width="100%" border="0" cellspacing="0" cellpadding="4" height="20" bgcolor="#DFDFDF">
+        <tr> 
+          <td width="43%"> 
+            <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b><font size="2">&nbsp;E-Posta Grubu 
+              &gt; </font><font size="2">&#304;statistikler &gt;</font></b></font></div>
+          </td>
+          <td width="57%"> 
+            <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><font size="2"> 
+              </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><font size="2">| 
+              <a class="link1" href="../grup/istatistik.html">2005-2006</a></font></font><font size="2"> 
+              | <a class="link1" href="../grup/istatistik2004.html">2004-2005</a> 
+              </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><font size="2">| 
+              <a class="link1" href="../grup/istatistik2003.html">2003-2004</a> 
+              </font></font><font size="2">| <a class="link1" href="../grup/istatistik2002.html">2002-2003</a> 
+              |</font></font></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

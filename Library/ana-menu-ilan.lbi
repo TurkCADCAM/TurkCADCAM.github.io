@@ -1,0 +1,40 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../images/transparent.gif" width="100" height="6"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../index.html">Ana Sayfa</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../forum/index.php" class="link2"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../grup/index.html">E-Posta Grubu</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#E20A17"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../ilan/index.html">&#304;lanlar</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../urun/index.html">Ürün-Uygulama</a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../haber/index.html">Haberler</a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../urun/index.html"></a></font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../urun/index.html"></a></font></b></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../rapor/index.html">Rapor-Makale</a></font></b></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../images/transparent.gif" width="100" height="3"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="22" bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../kuruluslar/index.html">Linkler</a><a class="link2" href="../anket/index.html"></a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Arial, Helvetica, sans-serif" size="-2" color="#FFFFFF"><b> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a class="link2" href="../teknomizah/index.html"></a></font></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../etkinlik/index.html">Etkinlikler</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../etkinlik/index.html"></a> </b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../anket/index.html"></a></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../teknomizah/index.html">TeknoMizah</a></b></font></div></td>
+    <td width="3">&nbsp;</td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../e-imalat/index.html" target="_blank" class="link2">e-imalat.com</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><a href="../kariyer/index.html" target="_blank" class="link2">Kariyer</a></font></b></div></td>
+    <td width="3"></td>
+    <td bgcolor="#395A9C"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><a class="link2" href="../arama/index.html">Arama</a></b></font></div></td>
+  </tr>
+</table>
